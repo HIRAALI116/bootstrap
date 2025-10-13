@@ -1,0 +1,38 @@
+.navbar-nav{
+    margin: 0 auto;
+    text-align: center;
+}
+.btn{
+    border: 2px solid #5E3BEE; /* purple border */
+    color: #5E3BEE; /* purple text */
+}
+  
+
+  .btn:hover {
+    background-color: #5E3BEE; /* purple background */
+    color: white;
+    /* white text */
+  }
+  .col-md-6{
+    font-size: 1.5em;
+    color: #282938;
+    font-family: 'roboto';
+    font-weight: 600;
+    font-style: semi-bold;
+  }
+.fw-bold{
+    color: #282938;
+    font-size: 2em;
+    font-family: 'roboto';
+    font-weight: 700;
+}
+.fw-bold-span{
+    color: #5E3BEE;
+    
+}
+.btn{
+    background-color: #5E3BEE;
+    color: #fff;
+    border-radius: 0%;
+    
+}
