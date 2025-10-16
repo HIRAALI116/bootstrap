@@ -14,7 +14,7 @@
     /* white text */
   }
   .col-md-6{
-    font-size: 1.5em;
+     font-size: 1.5em;
     color: #282938;
     font-family: 'roboto';
     font-weight: 600;
@@ -39,13 +39,16 @@
 .card img{
   width: 3.5em;
   height: auto;
-margin-left: 200px;
-margin-top: 20px;
+  margin: 0 auto;
 }
+/* margin-left: 200px;
+margin-top: 20px;*/
+
 .card{
   width: 28em;
   height: 20em;
-  margin: 80px;
+  margin: 0 auto;
+  /* margin: 80px; */
   text-align: center;
   
 }
@@ -63,4 +66,21 @@ margin-top: 20px;
 }
 .margin{
   margin: 40px;
+}
+.img-fluid{
+  width: 100%;
+  height: auto;
+}
+.cardsec img{
+width: 100%;
+height: auto;
+
+}
+
+.lead{
+  font-size: var(--secondary-font-size);
+  color: var(--text-color); ;
+  font-weight: 500;
+  font-family: 'roboto';
+  /* margin: 20px 0; */
 }
